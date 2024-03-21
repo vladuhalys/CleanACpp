@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{101c1932-0e80-4c96-8e19-718246427bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature">
+      <UniqueIdentifier>{8d0e2cb3-2b52-44c9-990c-403746fec309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\data">
+      <UniqueIdentifier>{9af676bf-ca38-462d-b192-b5f53613e4b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\domain">
+      <UniqueIdentifier>{03fcb355-736d-4a05-bf18-4638e2e9dfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\presentation">
+      <UniqueIdentifier>{35ea2afd-7065-40fe-ba4f-fc7037bf9fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\theme">
+      <UniqueIdentifier>{094411f9-ee6b-4069-8353-f93540445db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\consts">
+      <UniqueIdentifier>{66aa8d67-a200-4f5e-8870-d4e1805dbab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\errors">
+      <UniqueIdentifier>{ffab7f05-a466-403a-84b1-edeea202adcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{1b7131f8-135f-4dfe-bb73-2874a1689d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{e33c4c4d-3bb7-4290-8edd-9c01df273cd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\dev">
+      <UniqueIdentifier>{3ecde5e0-5d41-496a-b7ec-de669dc9bbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\prod">
+      <UniqueIdentifier>{6f7aee27-9e3a-456c-91a5-0503c5c0fea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application\stage">
+      <UniqueIdentifier>{6a49b88b-a1f4-4e08-a7ff-8e4acbdffeb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\library">
+      <UniqueIdentifier>{5a41ec97-c39d-4aea-909f-6d3e364ac317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\flavors">
+      <UniqueIdentifier>{56f1661f-9e6c-4c66-91c6-f7f787614dbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="feature\presentation\screens">
+      <UniqueIdentifier>{4e8367b5-d0ec-4dc8-b2b6-dc743632bb0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="home_screen.cpp">
+      <Filter>feature\presentation\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="error_screen.cpp">
+      <Filter>feature\presentation\screens</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dev_main.h">
+      <Filter>application\dev</Filter>
+    </ClInclude>
+    <ClInclude Include="stage_main.h">
+      <Filter>application\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="prod_main.h">
+      <Filter>application\prod</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>core\library</Filter>
+    </ClInclude>
+    <ClInclude Include="flavor.h">
+      <Filter>core\flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>feature\presentation\screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
